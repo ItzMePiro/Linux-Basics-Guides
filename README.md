@@ -47,6 +47,47 @@ apt [options] [command]
 
 ### Examples:
 ```bash
-apt install nano
+sudo apt install nano
 ```
 This command installs the nano text editor on your system.
+
+```bash
+sudo apt removes nano
+```
+This command removes the nano text editor from your system.
+
+## mkdir
+### Full Form: Make Directory
+
+The mkdir command is used to create new directories (folders) in the file system.
+
+### Usage:
+```bash
+mkdir [directory_name]
+```
+
+### Examples:
+```bash
+mkdir my_new_directory
+```
+This command creates a directory named my_new_directory.
+
+```bash
+mkdir -p parent/child
+```
+This command creates a nested directory structure with parent as the parent directory and child as a subdirectory inside parent.
+
+## cd
+### Full Form: Change Directory
+
+The cd command is used to change the current working directory in the terminal.
+
+### Usage:
+```bash
+cd [directory_name]
+```
+
+### Examples:
+```bash
+test
+```

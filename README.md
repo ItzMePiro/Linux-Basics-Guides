@@ -5,17 +5,18 @@ Welcome to the Linux Basics Guide repository! This guide is designed to help you
 # Table of Contents
 
 1. [sudo](#sudo)
-2. apt
-3. mkdir
-4. cd
-5. ls
-6. nano
-7. wget
-8. curl
-9. bash
+2. [apt](#apt)
+3. [mkdir](#mkdir)
+4. [cd](#cd)
+5. [ls](#ls)
+6. [nano](#nano)
+7. [wget](#wget)
+8. [curl](#curl)
+9. [bash](#bash)
+---
 
 ## sudo
-### Full Form: **Super User Do**
+### Full Form: Super User Do
 
 The sudo command allows you to run programs with the security privileges of another user, typically the superuser (root). This is useful when you need to perform administrative tasks that require higher permissions.
 
@@ -34,6 +35,8 @@ This command updates the list of available packages and their versions, but it d
 sudo reboot
 ```
 This command restarts the computer immediately.
+
+---
 
 ## apt
 ### Full Form: Advanced Package Tool
@@ -56,6 +59,8 @@ sudo apt removes nano
 ```
 This command removes the nano text editor from your system.
 
+---
+
 ## mkdir
 ### Full Form: Make Directory
 
@@ -77,6 +82,8 @@ mkdir -p parent/child
 ```
 This command creates a nested directory structure with parent as the parent directory and child as a subdirectory inside parent.
 
+---
+
 ## cd
 ### Full Form: Change Directory
 
@@ -89,5 +96,13 @@ cd [directory_name]
 
 ### Examples:
 ```bash
-test
+cd my_new_directory
 ```
+This command changes the current directory to my_new_directory.
+
+```bash
+cd ..
+```
+This command moves up one directory level to the parent directory.
+
+---

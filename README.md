@@ -20,10 +20,6 @@ Welcome to the Linux Basics Guide repository! This guide is designed to help you
 The sudo command allows you to run programs with the security privileges of another user, typically the superuser (root). This is useful when you need to perform administrative tasks that require higher permissions.
 
 ### Usage:
-> ```bash
+```bash
 sudo [command]
-```
-
-> ```bash
-sudoo [command]
 ```

@@ -34,3 +34,19 @@ This command updates the list of available packages and their versions, but it d
 sudo reboot
 ```
 This command restarts the computer immediately.
+
+## apt
+### Full Form: Advanced Package Tool
+
+The apt command is used to manage software packages on Ubuntu/Debain systems. You can install, update, upgrade, and remove software packages using apt.
+
+### Usage:
+```bash
+apt [options] [command]
+```
+
+### Examples:
+```bash
+apt install nano
+```
+This command installs the nano text editor on your system.

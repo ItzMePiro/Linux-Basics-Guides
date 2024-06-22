@@ -13,3 +13,11 @@ Welcome to the Linux Basics Guide repository! This guide is designed to help you
 7. wget
 8. curl
 9. bash
+
+## sudo
+### Full Form: Super User Do
+
+The sudo command allows you to run programs with the security privileges of another user, typically the superuser (root). This is useful when you need to perform administrative tasks that require higher permissions.
+
+### Usage:
+```sudo [command]```
